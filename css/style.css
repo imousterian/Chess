@@ -1,0 +1,99 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    margin-bottom: 10px;
+}
+#winner_wrapper{
+    width:280px;
+    padding-bottom: 30px;
+    float:right;
+}
+#winner{
+    float:left;
+    width: 25%;
+    height: 18px;
+}
+#winner_name{
+    float:right;
+    width: 65%;
+    border-bottom: 1px solid grey;
+    height: 18px;
+}
+.container{
+    padding-top: 30px;
+    width: 862px;
+    height: 562px;
+    margin: 0 auto;
+}
+.wrapper{
+    position: relative;
+    width: 562px;
+    height: 562px;
+    padding: 0 0 0 0;
+    border: 5px solid darkblue;
+    display: block;
+    float:left;
+}
+.results{
+    position: relative;
+    padding: 0 0 0 0;
+    display: block;
+    width: 280px;
+    height: 562px;
+    border-top: 5px solid grey;
+    float:right;
+}
+.whites{
+    padding-left: 20px;
+    float:left;
+}
+.blacks{
+    padding-right: 20px;
+    float:right;
+}
+.whites > thead > tr > th{
+    padding-top: 5px;
+    width: 80px;
+}
+.blacks > thead > tr > th{
+    padding-top: 5px;
+    width: 80px;
+}
+td{
+    padding-top: 5px;
+    border-top: 1px dotted black;
+}
+.grid{
+    width:  70px;
+    height: 70px;
+    position: absolute;
+    border: thin dotted lightgrey;
+    cursor: pointer;
+    z-index: 2;
+}
+.cell {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 0;
+    font-size: small;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 2px;
+    padding-left: 3px;
+    text-align: left;
+    vertical-align: top;
+}
+.light{
+    background-color: #F7DCB4;
+}
+.dark{
+    background-color: #A97D5D;
+}
+.selected{
+    background: rgb(51, 255, 51);
+    background: rgba(51, 255, 51, .5);
+}
